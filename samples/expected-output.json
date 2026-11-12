@@ -1,0 +1,23 @@
+[
+  {
+    "path": "/lab/config.txt",
+    "mode": "0666",
+    "reasons": [
+      "world_writable"
+    ]
+  },
+  {
+    "path": "/lab/.env",
+    "mode": "0644",
+    "reasons": [
+      "private_file_accessible_to_group_or_others"
+    ]
+  },
+  {
+    "path": "/tmp",
+    "mode": "1777",
+    "reasons": [
+      "world_writable_sticky_directory_review"
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "path": "/lab/config.txt",
+    "mode": "0666",
+    "kind": "file"
+  },
+  {
+    "path": "/lab/.env",
+    "mode": "0644",
+    "kind": "file"
+  },
+  {
+    "path": "/tmp",
+    "mode": "1777",
+    "kind": "directory"
+  },
+  {
+    "path": "/lab/id_ed25519",
+    "mode": "0600",
+    "kind": "file"
+  }
+]
